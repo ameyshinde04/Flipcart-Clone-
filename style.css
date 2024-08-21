@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 12vh;
+    background-color: #2370f4;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    padding: 0px 25px;
+    list-style: none;   
+    /* this function is used for decoration of listd */
+}
+a{
+    color: white;
+    text-decoration: none;
+    /* this function is used for decoration like underline , etc  */
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    /* ehis function is used to highlight something */
+}
+.search input{    /* calling input in class = "search" */
+    width: 444px; 
+    /* border-radius: 12px; */
+    /* margin: 0px 144px; */
+    padding: 3px;
+}
+
+.container{
+    min-height: calc(100vh - 12vh - 12vh);
+    /* this function is used to set height */
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+    /* overflow: hidden; */
+    /* width: 400px; */
+}
+h3{
+    padding: 4px 30px;
+}
+.top_deals{
+    /* padding: 4px 50px; */
+    display: flex;
+    /* justify-content: center; */
+}
+.top_deals img {
+    padding: 4px 25px;
+}
+.write{
+    display: flex;
+}
+.write pre{
+    padding: 4px 70px;
+}
+.write2{
+    display: flex;
+}
+.write2 pre{
+    padding: 4px 60px;
+}
+.glasses{
+    display: flex;
+}
+.glasses img{
+    padding: 4px 30px;
+}
+.perfumes{
+    display: flex;
+    /* overflow: hidden; */
+}
+.perfumes img{
+    padding: 4px 25px;
+}
+.write3{
+    display: flex;
+}
+.write3 pre{
+    padding: 4px 40px;
+}
+.card{
+    margin: auto;
+    overflow: scroll;    
+    /* to scroll */
+}
+
+footer{
+    height: 12vh;
+    background-color: #2370f4;
+    color: white;
+}
+.barlow-condensed-thin {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
